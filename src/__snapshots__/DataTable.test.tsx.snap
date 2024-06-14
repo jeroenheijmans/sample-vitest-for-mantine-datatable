@@ -1,0 +1,139 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`renders MyComponent correctly 1`] = `
+<div>
+  <style
+    data-mantine-styles="classes"
+  >
+    @media (max-width: 35.99375em) {.mantine-visible-from-xs {display: none !important;}}@media (min-width: 36em) {.mantine-hidden-from-xs {display: none !important;}}@media (max-width: 47.99375em) {.mantine-visible-from-sm {display: none !important;}}@media (min-width: 48em) {.mantine-hidden-from-sm {display: none !important;}}@media (max-width: 61.99375em) {.mantine-visible-from-md {display: none !important;}}@media (min-width: 62em) {.mantine-hidden-from-md {display: none !important;}}@media (max-width: 74.99375em) {.mantine-visible-from-lg {display: none !important;}}@media (min-width: 75em) {.mantine-hidden-from-lg {display: none !important;}}@media (max-width: 87.99375em) {.mantine-visible-from-xl {display: none !important;}}@media (min-width: 88em) {.mantine-hidden-from-xl {display: none !important;}}
+  </style>
+  <div
+    class="mantine-datatable"
+    style="height: 100%;"
+  >
+    <div
+      class="mantine-datatable-scroll-area m_d57069b5 mantine-ScrollArea-root"
+      style="--sa-corner-width: 0px; --sa-corner-height: 0px;"
+    >
+      <div
+        class="m_c0783ff9 mantine-ScrollArea-viewport"
+        data-scrollbars="xy"
+        style="overflow-x: scroll; overflow-y: scroll;"
+      >
+        <div
+          style="min-width: 100%; display: table;"
+        >
+          <table
+            class="mantine-datatable-table m_b23fa0ef mantine-Table-table"
+            style="--table-vertical-spacing: calc(0.4375rem * var(--mantine-scale)); --mantine-datatable-selection-column-width: 0px;"
+          >
+            <thead
+              class="m_b242d975 mantine-Table-thead mantine-datatable-header"
+            >
+              <tr
+                class="m_4e7aa4fd mantine-Table-tr"
+                data-with-row-border="true"
+              >
+                <th
+                  class="m_4e7aa4f3 mantine-Table-th"
+                >
+                  <div
+                    class="mantine-datatable-header-cell-sortable-group m_4081bf90 mantine-Group-root"
+                    style="--group-gap: var(--mantine-spacing-md); --group-align: center; --group-justify: space-between; --group-wrap: nowrap;"
+                  >
+                    <div
+                      class="m_8bffd616 mantine-Flex-root __m__-r8"
+                      style="align-items: center; width: 100%;"
+                    >
+                      <div
+                        class="mantine-datatable-header-cell-sortable-text mantine-datatable-nowrap mantine-datatable-ellipsis"
+                        title="Name"
+                      >
+                        Name
+                      </div>
+                    </div>
+                  </div>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr
+                class="m_4e7aa4fd mantine-Table-tr mantine-datatable-row"
+                data-with-row-border="true"
+              >
+                <td
+                  class="m_4e7aa4ef mantine-Table-td"
+                >
+                  John Doe
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div
+            class="mantine-datatable-scroll-area-shadow mantine-datatable-scroll-area-top-shadow"
+            style="top: 0px;"
+          />
+          <div
+            class="mantine-datatable-scroll-area-shadow mantine-datatable-scroll-area-left-shadow"
+          />
+          <div
+            class="mantine-datatable-scroll-area-shadow mantine-datatable-scroll-area-right-shadow"
+          />
+          <div
+            class="mantine-datatable-scroll-area-shadow mantine-datatable-scroll-area-bottom-shadow"
+            style="bottom: 0px;"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="mantine-datatable-loader m_4451eb3a mantine-Center-root"
+      style="padding-top: 0rem; padding-bottom: 0rem;"
+    />
+    <div
+      class="mantine-datatable-empty-state m_4451eb3a mantine-Center-root"
+      style="padding-top: 0rem; padding-bottom: 0rem;"
+    >
+      <div
+        class="mantine-datatable-empty-state-icon"
+      >
+        <svg
+          fill="none"
+          height="24"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          width="24"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+            stroke="none"
+          />
+          <path
+            d="M12.983 8.978c3.955 -.182 7.017 -1.446 7.017 -2.978c0 -1.657 -3.582 -3 -8 -3c-1.661 0 -3.204 .19 -4.483 .515m-2.783 1.228c-.471 .382 -.734 .808 -.734 1.257c0 1.22 1.944 2.271 4.734 2.74"
+          />
+          <path
+            d="M4 6v6c0 1.657 3.582 3 8 3c.986 0 1.93 -.067 2.802 -.19m3.187 -.82c1.251 -.53 2.011 -1.228 2.011 -1.99v-6"
+          />
+          <path
+            d="M4 12v6c0 1.657 3.582 3 8 3c3.217 0 5.991 -.712 7.261 -1.74m.739 -3.26v-4"
+          />
+          <path
+            d="M3 3l18 18"
+          />
+        </svg>
+      </div>
+      <div
+        class="mantine-focus-auto m_b6d8b162 mantine-Text-root"
+        data-size="sm"
+        style="--text-fz: var(--mantine-font-size-sm); --text-lh: var(--mantine-line-height-sm);"
+      >
+        No records
+      </div>
+    </div>
+  </div>
+</div>
+`;
